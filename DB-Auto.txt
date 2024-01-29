@@ -1,0 +1,23 @@
+NomeColonna  -  Tipo di dato  -  Attributi
+id              INT              primary_key, auto_increment
+targa           VARCHAR(32)      unique
+nome            VARCHAR(64)      noNull
+modello         VARCHAR(64)      noNull
+tipologia       VARCHAR(64)      noNull
+casa_prod       VARCHAR(64)      nullable
+colore          VARCHAR(32)      noNull
+prezzo          INT              noNULL
+sconto          INT              defaut(0)
+data_acquisto   DATA             noNULL
+data_vendita    DATA             noNULL
+ultimo_propr    VARCHAR(64)      nullable
+cilindrata      TINYINT          noNULL
+cavalli         TINYINT          noNULL
+carburante      VARCHAR(32)      noNULL
+anno_immatric   DATA             noNULL
+peso            INT              default(0)
+grado_usura     TINYINT          default(5)
+disponibilità   BOOLEAN          default(TRUE)
+quantità        INT              default(0)
+
+
